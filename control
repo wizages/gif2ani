@@ -1,0 +1,9 @@
+Package: com.wizages.gif2ani
+Name: Gif2Ani
+Depends: mobilesubstrate, com.wizages.writeanywhere
+Version: 0.1~beta1
+Architecture: iphoneos-arm
+Description: Allows you to change the respring animation haha
+Maintainer: wizage
+Author: wizage
+Section: Tweaks

@@ -1,0 +1,12 @@
+#!/bin/bash
+
+if [ ! -d /var/mobile/Documents ] ; then
+	mkdir /var/mobile/Documents
+fi
+if [ ! -d /var/mobile/Documents/Gif2Ani.theme ] ; then
+	mkdir /var/mobile/Documents/Gif2Ani.theme
+fi
+if [ ! -L /Library/Themes/Gif2Ani.theme ] ; then
+	ln -s /var/mobile/Library/Gif2Ani.theme/ /Library/Themes/
+fi
+chmod -R 777 /var/mobile/Documents/Gif2Ani.theme/
